@@ -1,0 +1,30 @@
+#logo {
+    width: 100px;
+    height: 50px;
+}
+
+.sign-in-btt {
+    background-color: blue;
+}
+
+.seacrh {
+    width: 30px;
+}
+
+.download {
+    width: 30px;
+}
+
+.search-bar {
+    width: 300px;
+}
+
+.icon-bar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.icon-list {
+    float: left;
+}
