@@ -126,9 +126,8 @@
         color: rgb(22, 122, 198);
     }
     
-    .body {
+    .container {
         display: flex;
-        flex-direction: row;
     }
     
     .video-player {
