@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">      
     <link rel="stylesheet" href="./css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="./css/main.css" type="text/css" media="all">
-    <title>Youtube </title>
+    <title>Youtube Video Player</title>
 </head>
-
 <body>
     <div class="container">
         <header>
@@ -17,62 +16,110 @@
                     <li><input id="youtube-logo" type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png" ></li>
                     <li><input id="search-bar" type="text" placeholder="Search" ></li>
                     <li><input id ="search-logo" type="image"  src="https://i7.pngguru.com/preview/765/401/199/magnifying-glass-computer-icons-search-box-icon-search-drawing-icon.jpg" ></li>
-                    <li><input id="download-logo" type="image" src="https://cdn.onlinewebfonts.com/svg/img_150954.png" ></li>
+                    <li><input id="upload-logo" type="image" src="https://cdn.onlinewebfonts.com/svg/img_150954.png" ></li>
                     <li><input class="sign-in" type="button" value="Sign In"></li>
                     <br><br>
                 </ul>
             </nav>
             <div id="language">
-                <h1>Choose your language</h1><br>
-                <p>You are viewing YouTube in English (US). You can change this preference below</p>
-                <a href="#">Learn more</a>
+                <div id="language-title">
+                    <h1 id="language">Choose your language</h1><br>
+                </div>
+                <div id="info-v">
+                    <p id="p">You are viewing YouTube in English (US). You can change this preference below</p>
+                    <a href="#" id="learn-link">Learn more</a>
+                </div>
             </div>
         </header>
-        <section id="video-player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div id="video-details">
-                    <p id="video-name">xxxx</p>
-                </div>
-                <div id="channel-details">
-                    <img id="channel-logo">
-                </div>
-                <div id="channel-name"><span>Jose & Paola</span>
-                </div>
-                <img id="subscribe-logo" src="" alt="subscribe">
-                <label id="views"><span>20,000 views</span>
-                </label>
+        <section class="video-player">
+            <iframe  width="692" height="315" src="https://www.youtube.com/embed/YIUs1pagLnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <section id="channel-info">
+                    <div id="video-details">
+                        <h2 id="video-name">HOW TO TRAVEL AMSTERDAM IN 2019</h2>
+                    </div>
+                    <div id="channel-details">
+                        <img id="channel-logo">
+                    </div>
+                    <div id="channel-name"><span>Jose & Paola</span>
+                    </div>
+                    <img id="subscribe-logo" src="https://www.parkablogs.com/sites/default/files/50k-subs.jpg" alt="subscribe">
+                    <label id="views"><span>200,000 views</span>
+                    </label>
+                </section>
+                <section id="description-box">
+                    <div id="date">
+                        <h3>Published on Mar 23, 2019</h3>
+                    </div>
+                    <div id="description-video">
+                        <p>If you're coming to Amsterdam in 2019, you need to watch this travel guide. These are the best things to do in Amsterdam from food, nightlife, hotels. Cheap travel won't be easy but hopefully I can help you keep costs low. From 9 Streets, Jordaan, Anne Frank House, Dam Square, and much more, I've got you covered.</p>
+                    </div>
+                    <div id="show-more">
+                        <p>Show More</p>
+                    </div>
+                </section>
+                    <div id="loading">
+                        <ul id="loading-box">
+                            <li><img id="loading-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif" alt="loading"></li>
+                            <li><h4>Loading</h4></li>
+                        </ul>
+                    </div>
+        </section>        
+        <aside class="sidebar">
+                    <div id="side_videos">
+                        <ul>
+                            <li>
+                                <img src="https://i.ytimg.com/an_webp/n_y-WU2ok6g/mqdefault_6s.webp?du=3000&sqp=CPizl_gF&rs=AOn4CLCbZuVi9VIEJE4MHF94NVdFvncI_Q" alt="">
+                            </li>
+                            <li>
+                                <span>Tips for an awesome Trip to Amsterdam</span>
+                                <p>Matt's Travel Tips</p>
+                                <p>5,000 Views</p>
+                            </li>
+                            <li>
+                                <img src="https://i.ytimg.com/an_webp/y6W_XUUV78w/mqdefault_6s.webp?du=3000&sqp=CNzml_gF&rs=AOn4CLBCe1VdJQStGx84gpN5L645fuc3fA" alt="">
+                            </li>
+                            <li>
+                                <span>Amsterdam</span>
+                                <p>Katty's Blog</p>
+                                <p>10,000 Views</p>
+                            </li>
+                            <li>
+                                <img src="https://i.ytimg.com/an_webp/SL_YBLWdZb8/mqdefault_6s.webp?du=3000&sqp=CNXol_gF&rs=AOn4CLDGkUzYJSMiwU6UsO31qZYJ5h9arQ" alt="">
+                            </li>
+                            <li>
+                                <span>Travel PERU</span>
+                                <p>Vagabrothers</p>
+                                <p>100,000 Views</p>
+                            </li>
+                            <li>
+                                <img src="https://i.ytimg.com/an_webp/aS2PtFbteT8/mqdefault_6s.webp?du=3000&sqp=CIPYl_gF&rs=AOn4CLCTBypxdgPuzn-0-3-41O8rptG3YQ" alt="">
+                            </li>
+                            <li>
+                                <span>How to travel Hong Kong</span>
+                                <p>Lost LeBlanc</p>
+                                <p>80,000 Views</p>
+                            </li>
+                            <li>
+                                <img src="https://i.ytimg.com/an_webp/8dr9_C-kSvQ/mqdefault_6s.webp?du=3000&sqp=CKTql_gF&rs=AOn4CLAhq5RRCd656DH0UNm0NEDUWldbaw" alt="">
+                            </li>
+                            <li>
+                                <span>How to travel Dubai</span>
+                                <p>Insider</p>
+                                <p>50,000 Views</p>
+                            </li>
                     
-            
-
-<div id="user">
-    <p></p>
-</div>
-<div id="video_date">
-    <p> </p>
-</div>
-
-</div>
-</section>
-<aside id="sidebar">
-  <div id="side_videos">
-      <ul>
-          <li>
-              <img src="">
-          </li>
-          <li>
-            <img src="">
-        </li>
-        <li>
-            <img src="">
-        </li>
-      </ul>
-  </div>         
-</aside>
-<footer>
-    
-</footer>    
-
+                    </div>         
+        </aside>
+                <footer id="bottom">
+                    <ul id="bottom-box"> 
+                        <li><img id="youtubelogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png" alt=""></li>
+                        <li><button id="language-btt">Language: English</button></li>
+                        <li><button id="location-btt">Location: Neatherlands</button></li>
+                        <li><button id="restricted-btt">Restricted Mode: Off</button></li>
+                        <li><button id="history-btt">History</button></li>
+                        <li><button id="help-btt">Help</button></li>
+                    </ul>
+                </footer>
 </body>
-
 </html>
     
