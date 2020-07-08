@@ -33,7 +33,7 @@ body {
 #youtube-logo {
     width: 100px;
     height: 30px;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -50,12 +50,12 @@ body {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: 5px;
 }
 
 #search-bar {
-    width: 300px;
+    width: 650px;
     height: 25px;
     border-radius: 2px;
     border: 1px solid black;
@@ -101,13 +101,17 @@ nav {
     border-top-color: 1px solid rgb(226, 226, 226);
     border-right-color: 1px solid rgb(226, 226, 226);
     border-left-color: 1px solid rgb(226, 226, 226);
-    padding-left: 10px;
+    height: 30px;
 }
 
 #language {
     color: white;
-    position: relative;
     font-size: 13px;
+    margin-top: 5px;
+}
+
+#language-text {
+    margin-left: 5px;
     padding-top: 5px;
 }
 
@@ -118,7 +122,6 @@ nav {
     border-right-color: 1px solid rgb(226, 226, 226);
     border-left-color: 1px solid rgb(226, 226, 226);
     border-bottom-color: 1px solid rgb(226, 226, 226);
-    padding-left: 10px;
 }
 
 #info-list {
@@ -132,17 +135,18 @@ nav {
 
 #p {
     color: black;
+    margin-left: 10px;
     margin-top: 5px;
 }
 
 #learn-link {
-    margin-left: 730px;
+    margin-left: 700px;
     margin-top: 5px;
 }
 
 #link {
-    text-decoration: none;
     color: rgb(22, 122, 198);
+    text-decoration: none;
 }
 
 #channel-info {
