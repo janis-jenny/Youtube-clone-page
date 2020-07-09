@@ -3,24 +3,7 @@ body {
     background-color: #EEEEEE;
 }
 
-#structure {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-}
-
-.video-player {
-    margin-left: 50px;
-    margin-top: 10px;
-    width: 700px;
-    margin-right: 20px;
-}
-
-.sidebar {
-    margin-top: 10px;
-}
+/* header */
 
 #square-logo {
     width: 30px;
@@ -79,15 +62,12 @@ body {
     padding: 0;
     overflow: hidden;
     display: flex;
-}
-
-#icon-container {
     width: 100%;
 }
 
 nav {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 50px;   
+    margin-right: 50px; 
     margin-top: 5px;
     background-color: white;
     border: 1px solid rgb(226, 226, 226);
@@ -102,17 +82,20 @@ nav {
     border-right-color: 1px solid rgb(226, 226, 226);
     border-left-color: 1px solid rgb(226, 226, 226);
     height: 30px;
-}
-
-#language {
+    font-size: 15px;
     color: white;
-    font-size: 13px;
-    margin-top: 5px;
+    text-align: left; 
+    padding-top: 11px;
+    padding-left: 1em;
 }
 
-#language-text {
-    margin-left: 5px;
-    padding-top: 5px;
+#language-title span {
+    float: right;
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding-right: 1em;
+    text-align: center;   
 }
 
 #info-v {
@@ -122,31 +105,36 @@ nav {
     border-right-color: 1px solid rgb(226, 226, 226);
     border-left-color: 1px solid rgb(226, 226, 226);
     border-bottom-color: 1px solid rgb(226, 226, 226);
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    text-align: left; 
+    padding-top: 11px;
+    padding-left: 1em;
 }
 
-#info-list {
+#learn-link {
+    float: right;
+    text-align: center;
+    color: rgb(22, 122, 198);
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+#structure {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
-    height: 30px;
 }
 
-#p {
-    color: black;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-#learn-link {
-    margin-left: 700px;
-    margin-top: 5px;
-}
-
-#link {
-    color: rgb(22, 122, 198);
-    text-decoration: none;
+/* video */
+.video-player {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 700px;
+    margin-right: 20px;
 }
 
 #channel-info {
@@ -189,13 +177,33 @@ nav {
     display: flex;
     font-size: 13px;
 }
+/* sidebar */
+
+.sidebar {
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border-color: 1px solid rgb(226, 226, 226);
+}
+
+.sidebar {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+ }
+    
+
+
+/* footer */
 
 #bottom-box {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex;
+    display: flex; 
 }
 
 #youtubelogo {
