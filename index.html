@@ -8,6 +8,7 @@
     <title>Youtube Video Player</title>
 </head>
 <body>
+    <!-- Start nav bar --> 
     <div class="container">
         <header>
             <nav>
@@ -21,6 +22,9 @@
                     <br><br>
                 </ul>
             </nav>
+    <!-- Finish nav bar -->  
+
+    <!-- Start language chose section-->      
             <div id="language">
                 <div id="language-title">
                     <h1>Choose your language</h1><span>x</span><br>
@@ -31,7 +35,9 @@
                 </div>
             </div>
         </header>
+    <!-- Finish language chose section-->
 
+    <!-- Start video and info section -->
     <ul id="structure">
         <li><section class="video-player">
                 <iframe  width="692" height="315" src="https://www.youtube.com/embed/YIUs1pagLnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -39,26 +45,33 @@
                     <div id="video-details">
                         <h2 id="video-name">HOW TO TRAVEL AMSTERDAM IN 2019</h2>
                     </div>
-                    <div id="channel-details">
+                <ul id="vide-details">    
+                    <li><div id="channel-details">
                         <img id="channel-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiExbPRJ72MajaxGtPmmyfqLT_FmEIqnNjCg&usqp=CAU" alt="logo channel">
-                    </div>
-                    <div id="channel-name">
+                    </div></li>
+                    <ul>
+                    <li><div id="channel-name">
                         <span>Jose & Jenny</span>
-                    </div>
-                    <img id="subscribe-logo" src="https://www.parkablogs.com/sites/default/files/50k-subs.jpg" alt="subscribe">
-                    <label id="views">
-                        <span>200,000 views</span>
-                    </label>
+                    </div></li>
+                    
+                        <li><img id="subscribe-logo" src="https://www.parkablogs.com/sites/default/files/50k-subs.jpg" alt="subscribe"></li>
+                    </ul>
+                    <li><label >
+                        <span id="views">200,000 views</span>
+                    </label></li>
+                </ul>
+                <hr class="line"></hr>
                 </section>
                 <section id="description-box">
                     <div id="date">
-                        <h3>Published on Mar 23, 2019</h3>
+                        <h3><strong>Published on Mar 23, 2019</stong></h3>
                     </div>
                     <div id="description-video">
                         <p>If you're coming to Amsterdam in 2019, you need to watch this travel guide. These are the best things to do in Amsterdam from food, nightlife, hotels. Cheap travel won't be easy but hopefully I can help you keep costs low. From 9 Streets, Jordaan, Anne Frank House, Dam Square, and much more, I've got you covered.</p>
                     </div>
-                    <div id="show-more">
-                        <p>Show More</p>
+                    <hr class="line"></hr>
+                    <div id="show-more">    
+                        <p>SHOW MORE</p>
                     </div>
                 </section>
                 <div>
@@ -70,7 +83,9 @@
                 </div>
                     
         </section>
-             
+    <!-- Finish video and info section --> 
+
+    <!-- Start side bar -->    
         <li><aside class="sidebar">
                     <div id="side_videos">
                         <ul>
@@ -119,7 +134,10 @@
 
     
         </aside></li>
-    </ul>    
+    </ul> 
+    <!-- Finish side bar-->   
+
+    <!-- Start footer -->
                 <footer id="bottom">
                     <ul id="bottom-box"> 
                         <li><img id="youtubelogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png" alt=""></li>
@@ -130,6 +148,7 @@
                         <li><button id="help-btt">Help</button></li>
                     </ul>
                 </footer>
+    <!-- Finish footer -->
 </body>
 </html>
     

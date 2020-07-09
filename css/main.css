@@ -3,6 +3,7 @@ body {
     background-color: #EEEEEE;
 }
 
+
 /* header */
 
 #square-logo {
@@ -66,8 +67,8 @@ body {
 }
 
 nav {
-    margin-left: 50px;   
-    margin-right: 50px; 
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 5px;
     background-color: white;
     border: 1px solid rgb(226, 226, 226);
@@ -84,7 +85,7 @@ nav {
     height: 30px;
     font-size: 15px;
     color: white;
-    text-align: left; 
+    text-align: left;
     padding-top: 11px;
     padding-left: 1em;
 }
@@ -95,7 +96,7 @@ nav {
     height: 30px;
     font-size: 15px;
     padding-right: 1em;
-    text-align: center;   
+    text-align: center;
 }
 
 #info-v {
@@ -108,7 +109,7 @@ nav {
     height: 30px;
     font-size: 15px;
     color: black;
-    text-align: left; 
+    text-align: left;
     padding-top: 11px;
     padding-left: 1em;
 }
@@ -129,7 +130,9 @@ nav {
     display: flex;
 }
 
+
 /* video */
+
 .video-player {
     margin-left: 50px;
     margin-top: 10px;
@@ -146,7 +149,7 @@ nav {
 
 #subscribe-logo {
     height: 30px;
-    width: 70px;
+    width: 100px;
 }
 
 #description-box {
@@ -166,7 +169,7 @@ nav {
 #loading-logo {
     height: 13px;
     width: 20px;
-    margin-left: 280px;
+    margin-left: 300px;
 }
 
 #loading-box {
@@ -176,7 +179,61 @@ nav {
     overflow: hidden;
     display: flex;
     font-size: 13px;
+    height: 200px;
 }
+
+#channel-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#vide-details {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+}
+
+#video-name {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#views {
+    margin-left: 400px;
+    font-size: 20px;
+    color: rgb(173, 169, 169);
+}
+
+.line {
+    width: 670px;
+    color: rgb(173, 169, 169);
+}
+
+#date {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#description-video {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+#show-more {
+    text-align: center;
+    font-size: 15px;
+}
+
+
 /* sidebar */
 
 .sidebar {
@@ -190,10 +247,9 @@ nav {
 }
 
 .sidebar {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
- }
-    
+}
 
 
 /* footer */
@@ -203,7 +259,7 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex; 
+    display: flex;
 }
 
 #youtubelogo {
