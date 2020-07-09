@@ -281,6 +281,7 @@ nav {
     margin-right: 475px;
     margin-top: 12px;
     margin-left: 2px;
+    color: rgb(173, 169, 169);
 }
 
 #like-bttn {
@@ -293,6 +294,7 @@ nav {
     margin-right: 30px;
     margin-top: 12px;
     margin-left: 2px;
+    color: rgb(173, 169, 169);
 }
 
 #dislike-bttn {
@@ -301,7 +303,14 @@ nav {
     margin-top: 10px;
 }
 
-#dislike-bttn
+#dislike-text {
+    margin-right: 30px;
+    margin-top: 12px;
+    margin-left: 2px;
+    color: rgb(173, 169, 169);
+}
+
+
 /* sidebar */
 
 .sidebar {
@@ -347,6 +356,13 @@ nav {
 
 /* footer */
 
+#bottom {
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color: 1px solid rgb(226, 226, 226);
+}
+
 .bottom-box {
     list-style-type: none;
     margin: 0;
@@ -355,36 +371,39 @@ nav {
     display: flex;
     background: white;
     align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #youtubelogo {
     width: 60px;
     height: 22px;
     margin-left: 30px;
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 15px;
 }
 
 #language-btt {
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 15px;
     height: 25px;
 }
 
 #location-btt {
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 15px;
     height: 25px;
 }
 
 #restricted-btt {
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 15px;
     height: 25px;
 }
 
 #history-btt {
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 15px;
     height: 25px;
 }
@@ -394,7 +413,36 @@ nav {
     height: 25px;
 }
 
-hr {
-    width: 1000px;
+#line-bottom {
+    width: 1100px;
 }
 
+#about {
+    margin-right: 40px;
+    margin-left: 20px;
+    color: rgb(173, 169, 169);
+}
+
+#press {
+    margin-right: 40px;
+    color: rgb(173, 169, 169);
+}
+
+#copyright {
+    margin-right: 40px;
+    color: rgb(173, 169, 169);
+}
+
+#creators {
+    margin-right: 40px;
+    color: rgb(173, 169, 169);
+}
+
+#advertise {
+    margin-right: 40px;
+    color: rgb(173, 169, 169);
+}
+
+#developers {
+    color: rgb(173, 169, 169);
+}
