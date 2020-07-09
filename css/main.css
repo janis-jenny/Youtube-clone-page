@@ -34,7 +34,14 @@ body {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+#notification-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
     margin-top: 5px;
 }
 
@@ -201,6 +208,7 @@ nav {
     display: flex;
     font-size: 13px;
     height: 200px;
+    margin-top: 100px;
 }
 
 #channel-logo {
@@ -254,33 +262,99 @@ nav {
     font-size: 15px;
 }
 
+#share-bar {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 25px;
+    overflow: hidden;
+    display: flex;
+}
 
+#share-bttn {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#share-text {
+    margin-right: 475px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+#like-bttn {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#like-text {
+    margin-right: 30px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+#dislike-bttn {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#dislike-bttn
 /* sidebar */
 
 .sidebar {
-    display: block;
+    display: inline-block;
     margin-top: 10px;
-    width: 300px;
+    width: 400px;
     margin-right: 20px;
-    background-color: white;
+    background-color: green;
     padding: 5px;
     border-color: 1px solid rgb(226, 226, 226);
 }
 
-.sidebar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#side_videos {
+    display: inline-block;
+}
+
+.img-video {
+    width: 180px;
+    margin-top: 15px;
+    height: 110px;
+}
+
+.img-text {
+    width: 220px;
+    height: 9px;
+    padding-top: 18px;
+    padding-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+#side-1 {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 25px;
+    overflow: hidden;
+    display: flex;
 }
 
 
 /* footer */
 
-#bottom-box {
+.bottom-box {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 25px;
     overflow: hidden;
     display: flex;
+    background: white;
+    align-items: center;
 }
 
 #youtubelogo {
@@ -323,3 +397,4 @@ nav {
 hr {
     width: 1000px;
 }
+
