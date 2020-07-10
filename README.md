@@ -5,7 +5,7 @@
 <h2>Live version:<h2>
 <hr>
 
-<p>Check out the live version <a href="https://pastorp3.github.io/">here</a></p>
+<p>Check out the live version <a href="https://pastorp3.github.io">here</a></p>
 
 <h3>Getting Started</h3>
 <hr>
