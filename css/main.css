@@ -27,8 +27,16 @@ body {
     width: 30px;
     height: 27px;
     border-radius: 2px;
-    border: 1px solid black;
+    border: 0;
     margin-top: 5px;
+}
+
+.search-button {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    background: url("https://i7.pngguru.com/preview/765/401/199/magnifying-glass-computer-icons-search-box-icon-search-drawing-icon.jpg");
+    background-size: 25px;
 }
 
 #upload-logo {
@@ -44,7 +52,6 @@ body {
     height: 30px;
     margin-left: 30px;
     margin-top: 5px;
-  
 }
 
 #search-bar {
@@ -89,7 +96,7 @@ nav {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 10px;
-    background-color: rgb(22, 122, 198);   
+    background-color: rgb(22, 122, 198);
     height: 30px;
     font-size: 15px;
     color: white;
@@ -215,7 +222,7 @@ nav {
     margin-right: 10px;
 }
 
-#vide-details {
+#video-details {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -233,6 +240,7 @@ nav {
 #views {
     margin-left: 362px;
     margin-right: 5px;
+    margin-top: 10px;
     font-size: 20px;
     color: rgb(173, 169, 169);
 }
@@ -269,11 +277,13 @@ nav {
     display: flex;
 }
 
-#share-bttn {
+.share-button {
     width: 25px;
     height: 25px;
     margin-left: 10px;
     margin-top: 10px;
+    background: url("https://i0.wp.com/www.mtctutorials.com/wp-content/uploads/2019/04/Share-button-png-by-mtc-tutorials.png?fit=419%2C337&ssl=1");
+    background-size: 25px;
 }
 
 #share-text {
@@ -313,7 +323,9 @@ nav {
     color: rgb(173, 169, 169);
 }
 
+
 /* sidebar */
+
 .sidebar {
     margin-right: -60px;
     margin-top: 10px;
