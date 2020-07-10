@@ -1,20 +1,20 @@
 <h1><strong>Youtube Clone Page</strong></h1>
 <hr>
-<p>Hello, Welcome to our youtube clone page, here is our first proyect.</p>
+<p>Hello! Welcome to our youtube clone page, this is our first project at Microverse.</p>
 
-<h2>Live version <h2>
+<h2>Live version:<h2>
 <hr>
 
 <p>Check out the live version <a href="https://pastorp3.github.io/">here</a></p>
 
-<h2>Built With</h2>
+<h3>Built With:</h3>
 <hr>
 <ul>
-    <li><h5>Html</h5></li>
+    <li><h4>Html</h4></li>
     <li><h5>Css</h5></li>
 </ul>
 
-<h2>Authors</h2>
+<h6>Authors:</h6>
 <hr>
 <ul>
     <li>Jenny Cardenas</li>

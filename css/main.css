@@ -215,7 +215,7 @@ nav {
     margin-right: 10px;
 }
 
-#vide-details {
+#video-details {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -233,6 +233,7 @@ nav {
 #views {
     margin-left: 362px;
     margin-right: 5px;
+    margin-top: 10px;
     font-size: 20px;
     color: rgb(173, 169, 169);
 }
