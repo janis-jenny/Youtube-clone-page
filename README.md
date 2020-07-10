@@ -1,6 +1,6 @@
 <h1><strong>Youtube Clone Page</strong></h1>
 <hr>
-<p>Hello, Welcome to our youtube clone page, here is our first proyect.</p>
+<p>Hello, Welcome to our youtube clone page, here is our first project.</p>
 
 <h2>Live version <h2>
 <hr>
