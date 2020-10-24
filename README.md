@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Apple-Page
+# Youtube Clone Page
 
-> This is a project for cloning an archived Apple page as a learning guide .
+> This is our first project for cloning an archived Youtube page as a learning guide .
 
 ![screenshot](./image/Screenshot.png)
 
