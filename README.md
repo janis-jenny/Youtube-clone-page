@@ -4,7 +4,7 @@
 
 > This is our first project for cloning an archived Youtube page as a learning guide .
 
-![screenshot](./image/Screenshot.png)
+![screenshot](./Image/Screenshot.png)
 
 ## Built With
 
